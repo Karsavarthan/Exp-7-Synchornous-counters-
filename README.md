@@ -1,5 +1,7 @@
-# Exp-6-Synchornous-counters - up counter and down counter 
-### AIM: To implement 4 bit up and down counters and validate  functionality.
+# Exp-6 Synchornous counters up counter 
+### AIM: To implement 4 bit up counters and validate  functionality.
+### NAME:KARSAVARTHAN.R.R
+### REG NO:23003628
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
@@ -36,53 +38,17 @@ Four-bit “Up” Counter
 
 
 
-## DOWN COUNTER 
-
-As well as counting “up” from zero and increasing or incrementing to some preset value, it is sometimes necessary to count “down” from a predetermined value to zero allowing us to produce an output that activates when the zero count or some other pre-set value is reached.
-
-This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 4-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
-![image](https://user-images.githubusercontent.com/36288975/169644844-1a14e123-7228-4ed8-81a9-eb937dff4ac8.png)
-
-
-4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
 
+### PROGRAM FOR UPCOUNTER
+![image](https://github.com/Karsavarthan/Exp-7-Synchornous-counters-/assets/139841970/96414469-cda6-4fd7-83be-6f22ea63d770)
 
+### RTL LOGIC UP COUNTER ![image](https://github.com/Karsavarthan/Exp-7-Synchornous-counters-/assets/139841970/f00bd097-6171-4305-aaa2-2e51d48b4ba6)
 
-### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-
-
-
-
-
-
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
-
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
+### TIMING DIGRAMS FOR UPCOUNTER  ![image](https://github.com/Karsavarthan/Exp-7-Synchornous-counters-/assets/139841970/f48765de-a810-4a67-b438-cb2cbefe3e3b)
 
 ### TRUTH TABLE 
+![image](https://github.com/Karsavarthan/Exp-7-Synchornous-counters-/assets/139841970/1e3dd63a-15b7-4243-9aba-79a728dd8bbe)
 
 
-
-
-
-
-### RESULTS 
+### RESULTS To design Synchornous counters up counter 
